@@ -32,10 +32,10 @@ $('#registration-form').submit(function(e){
             'fname'     : $('#registration-form #fname').val(),
             'lname'     : $('#registration-form #lname').val(),
             'email'     : $('#registration-form #email').val(),
-            'mobile'      : $('#registration-form #mobile').val(),
-            'address'   : $('#registration-form #address').val(),
-            'postcode'       : $('#registration-form #postcode').val(),
-            'city'      : $('#registration-form #city').val(),
+            'mobile'    : $('#registration-form #mobile').val(),
+            'profession' : $('#registration-form #profession').val(),
+            'age'       : $('#registration-form #age').val(),
+            'talent'    : $('#registration-form #talent').val(),
             'context'   : $('#registration-form #context').val()
     };
 

@@ -6,12 +6,12 @@
 	$lname        	= $_POST['lname'];
 	$email        	= $_POST['email'];
 	$mobile        	= $_POST['mobile'];
-	$address      	= $_POST['address'];
-	$postcode      	= $_POST['postcode'];
-	$city         	= $_POST['city'];
+	$profession    	= $_POST['profession'];
+	$age      			= $_POST['age'];
+	$talent        	= $_POST['talent'];
 	$context      	= $_POST['context'];
 
-	$message     	= "First Name: $fname, \nLast Name: $lname, \nEmail: $email, \nCell: $mobile, \nAddress: $address, \nZip Code: $postcode, \nCity: $city, \nContext: $context.";
+	$message     	= "First Name: $fname, \nLast Name: $lname, \nEmail: $email, \nMobile: $mobile, \nProfession: $profession, \nAge: $age, \nTalent: $talent, \nContext: $context.";
 
 	if(mail('timothy.holborn@gmail.com', "Test Sub", $message))
 		$form_data['success'] = true;
